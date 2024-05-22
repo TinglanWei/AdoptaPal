@@ -23,7 +23,7 @@ export function PetDetails(){
                     <Card className="mb-3">
                         <Row noGutters>
                             <Col md={5}>
-                                <img src={`/img/${pet.image}`}/>
+                                <img src={`${pet.image}`}/>
                             </Col>
                             <Col md={7}>
                                 <Card.Body>

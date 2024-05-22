@@ -1,7 +1,7 @@
 import axios from "axios";
 import { Pet } from "../models/pet";
 
-const apiURL = process.env.REACT_APP_API_URL + "pets" || "";
+const apiURL = 'https://my-json-server.typicode.com/TinglanWei/adopt-json-server/pets';
 
 // get a optional search term from the use (which will be the name / breed of the pet)
 export const getPets = async (searchTerm?:string) : Promise<Pet[]> => {

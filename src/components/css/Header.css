@@ -17,6 +17,11 @@
   .navbar-brand img {
       margin-right: 10px; /* Space between logo and brand name */
   }
+
+  .navbar .form-inline {
+      display: flex;
+      align-items: center;
+  }
   
   /* Navbar Link Styling */
   .nav-link {

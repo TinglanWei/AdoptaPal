@@ -3,11 +3,11 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" className="navbar-fixed-bottom">
             <Container>
                 <Navbar.Brand href="/">
                     <img
-                        src="/img/logo.jpg"
+                        src="https://i.imgur.com/EyRaLKR.jpeg"
                         width="50"
                         height="50"
                         className="d-inline-block align-top"
@@ -16,7 +16,7 @@ const Footer = () => {
                     AdoptaPal
                 </Navbar.Brand>
                 <Nav className="ml-auto">
-                    <Nav.Link href="https://github.com/TinglanWei" target="_blank">
+                    <Nav.Link href="https://github.com/TinglanWei/AdoptaPal" target="_blank">
                         Contact author @github
                     </Nav.Link>
                 </Nav>
