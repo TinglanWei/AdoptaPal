@@ -1,4 +1,4 @@
-import { Navbar, Container, Nav, NavDropdown } from 'react-bootstrap';
+import { Navbar, Container, Nav, NavDropdown, Form, Button, FormControl } from 'react-bootstrap';
 import './css/Header.css';
 
 export function Header() {
@@ -21,6 +21,10 @@ export function Header() {
                         <Nav.Link href="/adoption-guidelines">Adoption Guidelines</Nav.Link>
                         <Nav.Link href="/about-us">About Us</Nav.Link>
                     </Nav>
+                    <Form className="d-flex">
+                        <FormControl type="text" placeholder="Search pets" className="mr-sm-2" />
+                        <Button variant="outline-success">Search</Button>
+                    </Form>
                 </Navbar.Collapse>
             </Container>
         </Navbar>
