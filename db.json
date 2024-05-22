@@ -1,0 +1,141 @@
+{
+      "adoptions": [
+        {
+          "firstName": "Jonathan",
+          "middleName": "ASDF",
+          "lastName": "Hop",
+          "hasFencedYard": false,
+          "hasChildren": true,
+          "hasOtherPets": true,
+          "phoneNumber": "123-456-7890",
+          "email": "Jonathan@thisisnotvalid.com",
+          "aboutSelf": "I love dogs",
+          "id": 1
+        },
+        {
+          "firstName": "Marie",
+          "middleName": "",
+          "lastName": "Smith",
+          "hasFencedYard": true,
+          "hasChildren": false,
+          "hasOtherPets": false,
+          "phoneNumber": "321-654-0987",
+          "email": "marie.smith@fakeemail.com",
+          "aboutSelf": "Looking to adopt a cat",
+          "id": 2
+        },
+        {
+          "firstName": "Alice",
+          "middleName": "B",
+          "lastName": "Jones",
+          "hasFencedYard": true,
+          "hasChildren": true,
+          "hasOtherPets": true,
+          "phoneNumber": "456-123-7890",
+          "email": "alice.jones@somemail.com",
+          "aboutSelf": "Interested in fostering small animals",
+          "id": 3
+        }
+      ],
+      "pets": [
+            {
+              "id": 1,
+              "name": "Max",
+              "animalType": "dog",
+              "age": 2,
+              "description": "Max is a friendly dog. He loves to play fetch and is great with kids.",
+              "adopted": false,
+              "image": "dog1.jpg",
+              "breed": "Labrador retriever mix",
+              "isBoy": true,
+              "isAdopted": false,
+              "location": "San Francisco, CA",
+              "vaccinated": true
+            },
+            {
+              "id": 2,
+              "name": "Whiskers",
+              "animalType": "cat",
+              "age": 3,
+              "description": "Whiskers is a shy but affectionate cat once she gets to know you.",
+              "adopted": false,
+              "image": "cat2.jpg",
+              "breed": "Siamese",
+              "isBoy": false,
+              "isAdopted": false,
+              "location": "Austin, TX",
+              "vaccinated": true
+            },
+            {
+              "id": 3,
+              "name": "Bella",
+              "animalType": "dog",
+              "age": 4,
+              "description": "Bella is a gentle and loving Golden Retriever who thrives in a playful environment.",
+              "adopted": false,
+              "image": "dog3.jpg",
+              "breed": "Golden Retriever",
+              "isBoy": false,
+              "isAdopted": false,
+              "location": "Seattle, WA",
+              "vaccinated": false
+            },
+            {
+              "id": 4,
+              "name": "Shadow",
+              "animalType": "cat",
+              "age": 5,
+              "description": "Shadow is a quiet, independent cat who loves to lounge in sunny spots around the house.",
+              "adopted": false,
+              "image": "cat4.jpg",
+              "breed": "Maine Coon",
+              "isBoy": true,
+              "isAdopted": false,
+              "location": "Miami, FL",
+              "vaccinated": true
+            },
+            {
+              "id": 5,
+              "name": "Mittens",
+              "animalType": "cat",
+              "age": 2,
+              "description": "Mittens is playful and loves interactive toys, making her a great companion for active families.",
+              "adopted": false,
+              "image": "cat5.jpg",
+              "breed": "Ragdoll",
+              "isBoy": false,
+              "isAdopted": false,
+              "location": "New York, NY",
+              "vaccinated": false
+            },
+            {
+              "id": 6,
+              "name": "Rex",
+              "animalType": "dog",
+              "age": 3,
+              "description": "Rex is a loyal and protective German Shepherd, ideal for someone with a large yard.",
+              "adopted": false,
+              "image": "dog6.jpg",
+              "breed": "German Shepherd",
+              "isBoy": true,
+              "isAdopted": false,
+              "location": "Denver, CO",
+              "vaccinated": true
+            },
+            {
+              "id": 7,
+              "name": "Luna",
+              "animalType": "cat",
+              "age": 1,
+              "description": "Luna is a curious kitten with endless energy, loves climbing and exploring.",
+              "adopted": false,
+              "image": "cat7.jpg",
+              "breed": "British Shorthair",
+              "isBoy": false,
+              "isAdopted": false,
+              "location": "Chicago, IL",
+              "vaccinated": true
+            }
+      ]
+}
+    

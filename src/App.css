@@ -7,6 +7,16 @@
   pointer-events: none;
 }
 
+.App {
+  padding-top: 75px; /* Adjust this value based on the actual height of your navbar */
+}
+
+html, body {
+  height: 100%; /* make sure html and body are full height */
+  margin: 0;
+  padding: 0;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -35,4 +45,5 @@
   to {
     transform: rotate(360deg);
   }
+  
 }

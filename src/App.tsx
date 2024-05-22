@@ -1,24 +1,26 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { Header } from './components/Header';
+import { PetList } from './components/PetList';
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom';
+import { PetDetails } from './components/petDetails';
+import { PetAdoptionForm } from './components/PetAdoptionForm';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" element={<PetList></PetList>}></Route>
+          <Route path="/details/:id" element={<PetDetails />}></Route>
+          <Route path="/adoptions/:id" element={<PetAdoptionForm />}></Route>
+          <Route path="/dogs" element={<PetList></PetList>}></Route>
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

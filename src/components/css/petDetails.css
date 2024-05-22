@@ -1,0 +1,38 @@
+.PetDetails {
+      padding: 20px; /* Adds padding around the details for better spacing */
+      background-color: #f0f8ff; /* A soft blue background to make the card pop out gently */
+  }
+  
+  .PetDetails .card {
+      max-width: 800px; /* Limit card width for better readability on large screens */
+      margin: 20px auto; /* Center the card horizontally and add margin for spacing */
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+      border: none; /* Removes default border */
+      border-radius: 10px; /* Rounded corners for a softer look */
+      overflow: hidden; /* Ensures nothing spills out of the card border */
+  }
+  
+  .PetDetails img {
+      width: 100%; /* Ensures the image takes full width of its container */
+      border-bottom: 1px solid #dee2e6; /* Adds a subtle line between the image and text content */
+  }
+  
+  .card-body {
+      padding: 20px; /* Padding inside the card for content */
+      background-color: #ffffff; /* White background for the text area to enhance readability */
+  }
+  
+  .card-title {
+      color: #007bff; /* Theme blue color for titles */
+      margin-bottom: 10px; /* More space below the title */
+  }
+  
+  .card-text {
+      color: #343a40; /* Dark gray for text, providing contrast */
+      margin-bottom: 10px; /* Spacing between text entries */
+  }
+  
+  .card-text strong {
+      color: #007bff; /* Blue color for key words to stand out */
+  }
+  

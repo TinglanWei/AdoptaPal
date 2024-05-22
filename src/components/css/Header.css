@@ -1,0 +1,60 @@
+/* General Styles for Navbar */
+.navbar {
+      background-color: #0047AB; /* Deep blue background for the navbar */
+      padding: 0.5rem 1rem; /* Padding around the Navbar for better spacing */
+  }
+  
+  /* Logo and Brand Name Styling */
+  .navbar-brand {
+      color: white; /* White color for the logo text */
+      font-weight: bold; /* Bold font weight for visibility */
+      font-size: 30px; /* Larger font size for easy reading */
+      display: flex; /* Flex display to align logo and text */
+      align-items: center; /* Vertically center the contents */
+  }
+  
+  /* Styling for logo image */
+  .navbar-brand img {
+      margin-right: 10px; /* Space between logo and brand name */
+  }
+  
+  /* Navbar Link Styling */
+  .nav-link {
+      color: white; /* White text color for all nav links */
+      font-size: 22px; /* Increased font size for better readability */
+      padding: 8px 15px; /* Padding to increase the clickable area */
+  }
+  
+  /* Dropdown Menu Styling */
+
+  .dropdown-item {
+      color: black !important; /* Ensuring dropdown text is white */
+      background-color: transparent !important; /* Transparent background for dropdown items */
+  }
+  
+  
+  /* Button Styling */
+  .btn-outline-light, .btn-primary {
+      color: white; /* Text color for buttons */
+      border-color: white; /* Border color for outline button */
+      padding: 0.5rem 1rem; /* Padding for better touch interaction */
+      margin-left: 12px; /* Space between buttons */
+      font-size: 20px; /* Font size for readability */
+      border-radius: 5px; /* Rounded corners for aesthetic */
+  }
+  
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 991px) {
+      .navbar-brand {
+          font-size: 22px; /* Smaller brand font size on small screens */
+      }
+  
+      .nav-link, .dropdown-item {
+          font-size: 20px; /* Smaller font size for links on small devices */
+      }
+  
+      .btn-primary, .btn-outline-light {
+          font-size: 18px; /* Smaller button font size on small devices */
+      }
+  }
+  
