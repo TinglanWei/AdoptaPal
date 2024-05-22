@@ -1,0 +1,9 @@
+.PetList {
+  padding: 0px 80px; /* Adds 0px padding top/bottom and 80px left/right */
+}
+
+@media (max-width: 991px) {
+  .PetList {
+    padding: 20px 20px; /* Default padding for smaller screens */
+  }
+}
