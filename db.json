@@ -1,27 +1,27 @@
 {
       "adoptions": [
         {
-          "firstName": "Jonathan",
+          "firstName": "Harmony",
           "middleName": "ASDF",
-          "lastName": "Hop",
+          "lastName": "Haven",
           "hasFencedYard": false,
           "hasChildren": true,
           "hasOtherPets": true,
           "phoneNumber": "123-456-7890",
           "email": "Jonathan@thisisnotvalid.com",
-          "aboutSelf": "I love dogs",
+          "aboutSelf": "In the city center, Harmony Haven rescues and rehabilitates stray and abandoned animals, offering tailored care and community education on pet ownership and wildlife conservation.",
           "id": 1
         },
         {
-          "firstName": "Marie",
+          "firstName": "Sunny Skies",
           "middleName": "",
-          "lastName": "Smith",
+          "lastName": "Pet Adoption Center",
           "hasFencedYard": true,
           "hasChildren": false,
           "hasOtherPets": false,
           "phoneNumber": "321-654-0987",
           "email": "marie.smith@fakeemail.com",
-          "aboutSelf": "Looking to adopt a cat",
+          "aboutSelf": "Sunny Skies in the suburbs focuses on matching pets with families through careful screening. The center boasts outdoor areas and an advanced vet clinic, promoting holistic animal wellness and community involvement.",
           "id": 2
         },
         {
@@ -33,9 +33,33 @@
           "hasOtherPets": true,
           "phoneNumber": "456-123-7890",
           "email": "alice.jones@somemail.com",
-          "aboutSelf": "Interested in fostering small animals",
+          "aboutSelf": "Looking for a new, loving home for my dog due to changes in my life. I hope to connect with someone passionate about providing a caring and stable environment.",
           "id": 3
-        }
+        },
+        {
+          "firstName": "Clara",
+          "middleName": "",
+          "lastName": "Caring Homes",
+          "hasFencedYard": true,
+          "hasChildren": true,
+          "hasOtherPets": false,
+          "phoneNumber": "789-321-6540",
+          "email": "clara@caringshelter.com",
+          "aboutSelf": "Clara from Caring Homes works to ensure that every pet finds a forever home, offering personalized adoption processes and continuous support. Her center features comfortable living spaces and regular pet care education programs.",
+          "id": 4
+        },
+        {
+          "firstName": "Green",
+          "middleName": "",
+          "lastName": "Grove Shelter",
+          "hasFencedYard": false,
+          "hasChildren": false,
+          "hasOtherPets": true,
+          "phoneNumber": "802-456-7890",
+          "email": "contact@greengrove.com",
+          "aboutSelf": "Green Grove Shelter focuses on rescuing and providing temporary homes to exotic and domestic animals alike. Their facility includes natural habitats and expert care, promoting the well-being and adoption of animals in a community-focused environment.",
+          "id": 5
+        }                
       ],
       "pets": [
             {

@@ -1,0 +1,12 @@
+.OwnerList {
+  padding: 0px 80px; /* Adds 0px padding top/bottom and 80px left/right */
+}
+
+.featured-owner {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px; /* Adds top margin to separate from the front page */
+  margin-bottom: 30px;
+  font-size: 2.2rem;
+  font-weight: bold;
+}

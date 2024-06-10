@@ -1,4 +1,4 @@
-export interface AdoptionForm{
+export interface Adoption{
     firstName:string,
     middleName:string,
     lastName:string,
