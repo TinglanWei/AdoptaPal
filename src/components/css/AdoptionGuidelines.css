@@ -1,0 +1,25 @@
+.adoption-guidelines {
+  background-color: #f7f7f7;
+  padding: 40px;
+  color: #333;
+  border-radius: 15px;
+}
+
+.adoption-guidelines h1 {
+  color: palevioletred;
+  margin-top: 20px;
+}
+
+.adoption-guidelines h3 {
+  color: palevioletred;
+  margin-top: 30px;
+}
+
+.adoption-guidelines p {
+  padding: 10px;
+  color: black;
+}
+
+.list-group-item {
+  border: 1px solid #ddd;
+}

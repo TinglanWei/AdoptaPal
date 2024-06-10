@@ -8,6 +8,8 @@ import { PetAdoptionForm } from './components/PetAdoptionForm';
 import Footer from './components/Footer';
 import Frontpage from './components/Frontpage';
 import { OwnerList } from './components/OwnerList';
+import AdoptGuidelines from './components/AdoptionGuidelines';
+import AboutUs from './components/AboutUs';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/AdoptaPal/adoptions/:id" element={<PetAdoptionForm />}></Route>
           <Route path="/AdoptaPal/dogs" element={<PetList></PetList>}></Route>
           <Route path="/AdoptaPal/find-owner" element={<OwnerList></OwnerList>}></Route>
+          <Route path="/AdoptaPal/guidelines" element={<AdoptGuidelines />}></Route>
+          <Route path="/AdoptaPal/aboutus" element={<AboutUs />}></Route>
         </Routes>
         <Footer />
       </Router>

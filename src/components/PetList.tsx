@@ -15,7 +15,7 @@ export function PetList() {
   return (
     <div className="PetList">
       <Container className="featured-pets">
-        <h2>--- Featured Pets ---</h2>
+        --- Featured Pets ---
       </Container>
       <Row className="g-4 justify-content-center">  {/* g-4 provides gap, justify-content-center centers the items */}
         {pets.map((pet) => (

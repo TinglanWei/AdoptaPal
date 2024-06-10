@@ -20,8 +20,8 @@ export function Header() {
                             <NavDropdown.Item as={Link} to="/AdoptaPal/others">Other Animals</NavDropdown.Item>
                         </NavDropdown>
                         <Nav.Link as={Link} to="/AdoptaPal/find-owner">Find Owner</Nav.Link>
-                        <Nav.Link as={Link} to="/AdoptaPal/adoption-guidelines">Adoption Guidelines</Nav.Link>
-                        <Nav.Link as={Link} to="/AdoptaPal/about-us">About Us</Nav.Link>
+                        <Nav.Link as={Link} to="/AdoptaPal/guidelines">Adoption Guidelines</Nav.Link>
+                        <Nav.Link as={Link} to="/AdoptaPal/aboutus">About Us</Nav.Link>
                     </Nav>
                     <Form className="d-flex">
                         <FormControl type="text" placeholder="Search pets" className="ml-3" />
