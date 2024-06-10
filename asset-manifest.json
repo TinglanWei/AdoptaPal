@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/AdoptaPal/static/css/main.f30fa07f.css",
-    "main.js": "/AdoptaPal/static/js/main.c2d1986a.js",
+    "main.js": "/AdoptaPal/static/js/main.3092c449.js",
     "static/js/453.557d673b.chunk.js": "/AdoptaPal/static/js/453.557d673b.chunk.js",
     "index.html": "/AdoptaPal/index.html",
     "main.f30fa07f.css.map": "/AdoptaPal/static/css/main.f30fa07f.css.map",
-    "main.c2d1986a.js.map": "/AdoptaPal/static/js/main.c2d1986a.js.map",
+    "main.3092c449.js.map": "/AdoptaPal/static/js/main.3092c449.js.map",
     "453.557d673b.chunk.js.map": "/AdoptaPal/static/js/453.557d673b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f30fa07f.css",
-    "static/js/main.c2d1986a.js"
+    "static/js/main.3092c449.js"
   ]
 }
