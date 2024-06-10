@@ -11,6 +11,14 @@
   padding-top: 75px;  /* Adjust this value based on the actual height of your navbar  */
 }
 
+.centered-alert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px; /* Adds some space above the alert for better spacing */
+}
+
+
 html, body {
   height: 100%; /* make sure html and body are full height */
   margin: 0;
@@ -46,4 +54,14 @@ html, body {
     transform: rotate(360deg);
   }
   
+}
+
+#root, .App {
+  display: flex;
+  flex-direction: column;
+  min-height: 1; /* This ensures all content pushes the footer to the bottom */
+}
+
+.content {
+  flex: 1; /* This ensures that the content section takes up the available space */
 }

@@ -1,0 +1,36 @@
+/* https://i.ibb.co/6PF2V4W/Screen-Shot-2024-06-10-at-03-10-50.png */
+.hero-section {
+  background: url("https://i.ibb.co/6PF2V4W/Screen-Shot-2024-06-10-at-03-10-50.png")
+    center center/cover no-repeat;
+  height: 500px; /* Adjust the height */
+  display: flex;
+  align-items: flex-end; /* Aligns content to the bottom */
+  justify-content: flex-end; /* Aligns content to the left */
+  padding: 20px; /* Adds padding inside the container */
+}
+
+.text-overlay {
+  text-align: left;
+  color: white; /* For better readability against a potentially dark background */
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.hero-title {
+  font-size: 2.7rem; /* Large size for main headline */
+  font-weight: bold; /* Makes the font bold */
+  margin: 0; /* Adjust or remove margin as needed */
+}
+
+.hero-subtext {
+  font-size: 1.5rem; /* Smaller size for subtext */
+  margin: 5px 0; /* Small margin for spacing between text lines */
+}
+
+.highlight {
+  color: yellowgreen; /* Optional: Change text color if needed for contrast */
+  font-weight: bold;
+  padding: 0 0px 0 10px;
+}
+
