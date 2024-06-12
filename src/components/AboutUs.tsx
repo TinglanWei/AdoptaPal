@@ -29,7 +29,7 @@ const AboutUs = () => {
               <Card.Title>Author</Card.Title>
               <Card.Text>
                 This is a static responsive web app project built using React and Typescript. Access the repository through:
-                <a href="https://github.com/TinglanWei/AdoptaPal" target="_blank" rel="noopener noreferrer"> GitHub</a>.
+                <a href="https://github.com/tinglanw/AdoptaPal" target="_blank" rel="noopener noreferrer"> GitHub</a>.
               </Card.Text>
             </Card.Body>
           </Card>

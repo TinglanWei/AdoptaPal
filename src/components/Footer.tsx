@@ -16,7 +16,7 @@ const Footer = () => {
                     AdoptaPal
                 </Navbar.Brand>
                 <Nav className="ml-auto">
-                    <Nav.Link href="https://github.com/TinglanWei/AdoptaPal" target="_blank">
+                    <Nav.Link href="https://github.com/tinglanw/AdoptaPal" target="_blank">
                         Contact author @github
                     </Nav.Link>
                 </Nav>
